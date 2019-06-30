@@ -6,4 +6,8 @@ import { Injectable } from '@angular/core';
 export class AuthService {
 
   constructor() { }
+
+  getUserDetail() {
+    // post these details to API server return user info if correct
+  }
 }
